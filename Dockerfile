@@ -1,3 +1,3 @@
-FROM nginx:trixie-perl
-COPY index.html /etc/nginx/nginx.conf
+FROM httpd:trixie
+COPY index.html /usr/local/apache2/htdocs/
 
